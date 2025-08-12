@@ -2,8 +2,8 @@ import React from "react"
 import { ToastContainer, toast } from 'react-toastify';
 import Home from "./pages/Home";
 import {Routes, Route} from 'react-router-dom'
-import Navbar from "./component/NavBar";
 import Footer from "./component/Footer";
+import Navbar from "./component/Navbar";
 
 
 function App() {

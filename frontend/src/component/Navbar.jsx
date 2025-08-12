@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { asserts } from "../assets/assets"
-import { NavLink } from "react-router-dom"
 import { IoMdMenu } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
 import { MdDarkMode } from "react-icons/md";
