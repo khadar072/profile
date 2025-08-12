@@ -5,7 +5,7 @@ const Footer = () => {
     const linkSections = [
     {
       title: "Quick Links",
-      links: ["Home", "Best Doctors", "Offers & Deals", "Contact Us", "FAQs"],
+      links: ["Home", "Best Services", "Offers & Deals", "Contact Us", "FAQs"],
     },
     {
       title: "Need Help?",
@@ -33,8 +33,8 @@ const Footer = () => {
             alt="dummyLogoColored"
           />
           <div className="relative z-0 text-blue-500">
-          <p className="font-semibold pt-1">Doctor</p>
-          <p className=" absolute top-5 font-semibold">Appointment</p>
+          <p className="font-semibold pt-1">Best</p>
+          <p className=" absolute top-5 font-semibold">Developer</p>
         </div>
           </div>
           <p className="max-w-[410px] mt-6">
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
-        Copyright 2025 © PrebuiltUI All Right Reserved.
+        Copyright 2025 © Khadr072 All Right Reserved.
       </p>
     </div>
   )
