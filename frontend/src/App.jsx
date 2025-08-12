@@ -1,0 +1,24 @@
+import React from "react"
+import { ToastContainer, toast } from 'react-toastify';
+import Home from "./pages/Home";
+import {Routes, Route} from 'react-router-dom'
+import Navbar from "./component/NavBar";
+import Footer from "./component/Footer";
+
+
+function App() {
+  const notify = () => toast("Wow so easy!");
+
+  return (
+    <div className="w-full min-h-screen">
+      <Navbar/>
+      <ToastContainer />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
+      <Footer/>
+    </div>
+  )
+}
+
+export default App
