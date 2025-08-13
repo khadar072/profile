@@ -23,17 +23,17 @@ const Tech = () => {
 
     return (
         <section className="my-10 max-w-6xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-blue-600 mb-4">Tech I Use</h2>
+            <h2 data-aos="zoom-in" className="text-3xl font-bold text-center text-blue-600 mb-4">Tech I Use</h2>
 
-            <p className="max-w-3xl mx-auto text-center text-gray-700 mb-10 px-4">
+            <p data-aos="zoom-in" className="max-w-3xl mx-auto text-center text-gray-700 mb-10 px-4">
                 Using modern tools and frameworks, I build fast, scalable, and beautiful apps that bring your ideas to life.
             </p>
 
             <div className="grid sm:grid-cols-3 gap-10 text-center">
                 {/* Frontend */}
                 <div>
-                    <h3 className="text-xl font-semibold mb-3">Frontend</h3>
-                    <div className="flex flex-col gap-4 items-center">
+                    <h3 data-aos="zoom-in" className="text-xl font-semibold mb-3">Frontend</h3>
+                    <div data-aos="zoom-in" className="flex flex-col gap-4 items-center">
                         {frontend.map((tech) => (
                             <div key={tech.name} className="flex flex-row border w-full sm:w-60 px-3 py-3 rounded-4xl items-center">
                                 {tech.icon}
@@ -45,8 +45,8 @@ const Tech = () => {
 
                 {/* Backend */}
                 <div>
-                    <h3 className="text-xl font-semibold mb-3">Backend</h3>
-                    <div className="flex flex-col gap-4 items-center">
+                    <h3 data-aos="zoom-in" className="text-xl font-semibold mb-3">Backend</h3>
+                    <div data-aos="zoom-in" className="flex  flex-col gap-4 items-center">
                         {backend.map((tech) => (
                             <div key={tech.name} className="flex flex-row border w-full sm:w-60 px-3 py-3 rounded-4xl items-center">
                                 {tech.icon}
@@ -58,8 +58,8 @@ const Tech = () => {
 
                 {/* Tools */}
                 <div>
-                    <h3 className="text-xl font-semibold mb-3">Tools & Others</h3>
-                    <div className="flex flex-col gap-4 items-center">
+                    <h3 data-aos="zoom-in" className="text-xl font-semibold mb-3">Tools & Others</h3>
+                    <div data-aos="zoom-in" className="flex flex-col gap-4 items-center">
                         {tools.map((tech) => (
                             <div key={tech.name} className="flex flex-row border w-full sm:w-60 px-3 py-3 rounded-4xl items-center">
                                 {tech.icon}

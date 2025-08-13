@@ -10,7 +10,7 @@ function App() {
   const notify = () => toast("Wow so easy!");
 
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen dark:bg-gray-900 dark:text-white">
       <Navbar/>
       <ToastContainer />
       <Routes>

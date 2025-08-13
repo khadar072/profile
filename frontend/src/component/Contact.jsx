@@ -6,10 +6,10 @@ const Contact = () => {
         <div className=''>
             <section
                 id="contact"
-                className="py-2 px-4 sm:px-10 bg-gray-50 flex flex-col items-center"
+                className="py-2 px-4 sm:px-10 dark:bg-gray-900 dark:text-white bg-gray-50 flex flex-col items-center"
             >
                 {/* Heading */}
-                <div className="text-center mb-10">
+                <div data-aos="zoom-in" className="text-center mb-10">
                     <h1 className="text-4xl font-bold text-blue-500">Get in Touch</h1>
                     <p className="text-gray-600 mt-2 max-w-xl">
                         Have a project in mind or just want to say hello?
@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full max-w-5xl">
 
                     {/* Left - Contact Info */}
-                    <div className="flex flex-col gap-6">
+                    <div data-aos="fade-right" className="flex shadow-md shadow-blue-600 p-2 flex-col gap-6">
                         <div className="flex items-center gap-4">
                             <FaEnvelope className="text-blue-500 text-2xl" />
                             <span className="text-gray-700">your@email.com</span>
@@ -39,9 +39,10 @@ const Contact = () => {
 
                         {/* Optional Google Map */}
                         <iframe
+                            data-aos="zoom-in"
                             title="map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.244737335168!2d47.42442321504986!3d6.772699394247132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d9e411f72c04fdb%3A0xf742e3f35c9e92d3!2sGalkacyo%2C%20Somalia!5e0!3m2!1sen!2sus!4v1689435700546!5m2!1sen!2sus"
-                            className="w-full h-48 rounded-lg shadow-md"
+                            className="w-full mt-4  h-48 rounded-lg   dark:bg-gray-900 dark:text-white"
                             loading="lazy"
                             allowFullScreen
                             referrerPolicy="no-referrer-when-downgrade"
@@ -51,7 +52,7 @@ const Contact = () => {
                     </div>
 
                     {/* Right - Contact Form */}
-                    <form className="bg-white p-6 rounded-lg shadow-md flex flex-col gap-4">
+                    <form data-aos="zoom-in" className="bg-white p-6 rounded-lg dark:bg-gray-900 dark:text-white shadow-md  shadow-blue-600 flex flex-col gap-4">
                         <input
                             type="text"
                             placeholder="Your Name"

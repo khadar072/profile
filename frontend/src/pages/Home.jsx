@@ -7,7 +7,7 @@ import Tech from '../component/Tech'
 
 const Home = () => {
   return (
-<div className='px-2 sm:px-[8%] py-4'>
+<div className='px-1 dark:bg-gray-900 dark:text-white  md:px-[8%] py-6 sm:py-4'>
   <Hero/>
   <Services/>
   <About/>

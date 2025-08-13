@@ -48,15 +48,15 @@ const Services = () => {
 
 
   return (
-    <div id='services' className='mt-10 flex flex-col gap-2 items-center justify-center'>
-       <h1 className='text-xs sm:text-base'>High-quality services, crafted to exceed your expectations.</h1>
-       <h1 className='text-4xl text-blue-500 font-semibold'>What My Services</h1>
+    <div id='services' className=' mt-3 sm:mt-16 flex flex-col gap-2 z-10 items-center justify-center dark:bg-gray-900 dark:text-white'>
+       <h1 data-aos="fade-up" className='text-xs sm:text-base'>High-quality services, crafted to exceed your expectations.</h1>
+       <h1 data-aos="fade-up" className='text-4xl text-blue-500 font-semibold'>What My Services</h1>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl w-full">
+        <div data-aos="fade-up" className="grid  gap-6 grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 mt-4 dark:bg-gray-900 dark:text-white max-w-6xl w-full">
         {services.map((service, i) => (
           <div
             key={i}
-            className="bg-white shadow-md hover:shadow-lg transition-all duration-300 rounded-xl p-6 flex flex-col items-center text-center"
+            className="bg-white dark:bg-gray-900 dark:text-white shadow-md  shadow-blue-600 hover:shadow-lg transition-all duration-300 rounded-xl px-6 py-16 flex flex-col items-center text-center"
           >
             {service.image}
             <h2 className="mt-4 text-lg font-semibold">{service.title}</h2>

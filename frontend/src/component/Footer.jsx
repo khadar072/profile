@@ -28,8 +28,8 @@ const Footer = () => {
         <div>
           <div className="flex gap-1.5">
           <img
-            className="w-12"
-            src={asserts.logo}
+            className="w-14 h-14 rounded-full"
+            src={asserts.profile1}
             alt="dummyLogoColored"
           />
           <div className="relative z-0 text-blue-500">
