@@ -42,9 +42,9 @@ const Footer = () => {
             reach out to us anytime, and we'll get back to you as soon as
             possible.?
           </p>
-          <div class="flex items-center gap-4 mt-2">
-            <input class="py-2 px-3 w-full outline-none focus:border-blue-500/60 transition max-w-64 border border-gray-500/30 rounded-md" type="text" placeholder="Enter you email"/>
-            <button class="bg-blue-500 hover:bg-blue-600 transition-all px-6 py-2 rounded text-white font-medium">Subscribe</button>
+          <div className="flex items-center gap-4 mt-2">
+            <input className="py-2 px-3 w-full outline-none focus:border-blue-500/60 transition max-w-64 border border-gray-500/30 rounded-md" type="text" placeholder="Enter you email"/>
+            <button className="bg-blue-500 hover:bg-blue-600 transition-all px-6 py-2 rounded text-white font-medium">Subscribe</button>
         </div>
         </div>
         <div className="flex flex-wrap justify-between w-full md:w-[45%] gap-5">

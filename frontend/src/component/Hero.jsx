@@ -14,16 +14,18 @@ const Hero = () => {
 
             {/* left part */}
             <div className='md:w-1/2 flex flex-col items-start pl-2 sm:pl-32 pt-4 sm:pt-28 z-0 text-black gap-2 sm:gap-4'>
-                <div className='flex flex-row justify-center items-center pl-4 sm:pl-0 gap-3'>
-                    <p className='text-blue-500 text-xl sm:text-2xl font-light leading-0 pb-2'>welcome to my social media</p>
-                    <div className='flex flex-row gap-1'>
-                        <FaWhatsapp size={25} className='text-blue-500 cursor-pointer' />
-                        <AiOutlineInstagram size={25} className='text-blue-500 cursor-pointer' />
-                        <TiSocialFacebook size={25} className='text-blue-500 cursor-pointer' />
-                        <TfiTwitter size={25} className='text-blue-500 cursor-pointer' />
+                <div className="flex flex-col sm:flex-col justify-center items-center pl-4 sm:pl-0 gap-3">
+                    <p className="flex flex-wrap text-blue-500 text-xl sm:text-2xl font-light leading-0 pb-2 text-center">
+                        welcome to my social media
+                    </p>
+                    <div className="flex flex-row gap-1">
+                        <FaWhatsapp size={25} className="text-blue-500 cursor-pointer" />
+                        <AiOutlineInstagram size={25} className="text-blue-500 cursor-pointer" />
+                        <TiSocialFacebook size={25} className="text-blue-500 cursor-pointer" />
+                        <TfiTwitter size={25} className="text-blue-500 cursor-pointer" />
                     </div>
-
                 </div>
+
                 <div>
                     <h1 className="text-3xl pl-4 sm:pl-0 sm:text-5xl font-bold text-gray-900">
                         Hi, I'm <span className="text-blue-500">Khadar</span>.I Design & Build <span className="text-blue-500">Unique Product</span>
